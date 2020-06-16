@@ -28,7 +28,7 @@
 #include <opencv2/core/core.hpp>
 namespace cvsba {
 
-class Sba {
+class __declspec(dllexport) Sba {
 public:
 
     // TYPE type: type of bundle adjustment optimization. Posible values:
