@@ -26,9 +26,12 @@
 #include <vector>
 #include <iostream>
 #include <opencv2/core/core.hpp>
+
+#include "libcvsba_export.h"
+
 namespace cvsba {
 
-class __declspec(dllexport) Sba {
+class LIBCVSBA_EXPORT Sba {
 public:
 
     // TYPE type: type of bundle adjustment optimization. Posible values:
